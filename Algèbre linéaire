@@ -1,0 +1,72 @@
+Cours : J’ai étudié le contenu via le site web Bibm@th.net et la chaîne YouTube Exo7Math.
+
+1. Espaces Vectoriels (Espaces Vectoriels)
+Un espace vectoriel est un ensemble d'éléments (appelés vecteurs) sur lequel on définit deux opérations : l'addition et la multiplication par un scalaire.
+
+Sous-espace vectoriel (s.e.v) : Un sous-ensemble $F$ d'un espace $E$ qui est lui-même un espace vectoriel.
+Combinaison linéaire : Un vecteur $v$ est une combinaison linéaire de $v_1, ..., v_n$ s'il existe des scalaires $\lambda_1, ..., \lambda_n$ tels que
+
+
+            :$$v = \sum_{i=1}^{n} \lambda_i v_i$$
+
+Famille Libre (Indépendance linéaire) : Les vecteurs ne peuvent pas être exprimés les uns en fonction des autres.
+
+Famille Génératrice : Tout vecteur de l'espace peut être écrit comme combinaison linéaire de cette famille.
+
+Base : Une famille qui est à la fois libre et génératrice. La taille d'une base est la dimension de l'espace.
+
+
+2. . Matrices et Systèmes Linéaires
+Les matrices sont des tableaux de nombres utilisés pour représenter des transformations ou des systèmes d'équations.
+
+Produit matriciel : Le produit $A \times B$ n'est possible que si le nombre de colonnes de $A$ est égal au nombre de lignes de $B$.
+Transposée ($A^T$) : On échange les lignes et les colonnes.
+Inverse ($A^{-1}$) : Une matrice carrée est inversible si et seulement si son déterminant est non nul ($\det(A) \neq 0$).
+Rang ($rg$) : Le nombre maximal de colonnes (ou lignes) linéairement indépendantes.
+
+
+3. Applications Linéaires (Transformations Linéaires)
+Une application $f: E \to F$ est linéaire si elle respecte l'addition et la multiplication scalaire : $f(u + v) = f(u) + f(v)$ et $f(\lambda u) = \lambda f(u)$.
+
+Noyau (Kernel - $\text{Ker}(f)$) : L'ensemble des vecteurs $x$ tels que $f(x) = 0$.
+Image ($\text{Im}(f)$) : L'ensemble des valeurs atteintes par $f$.
+Théorème du Rang : Pour une application $f$ définie sur un espace de dimension finie $n$ :
+
+         $$\dim(\text{Ker}(f)) + \text{rg}(f) = n$$
+
+
+4. Déterminants et DiagonalisationCes 
+concepts permettent d'étudier les propriétés intrinsèques des matrices carrées.
+
+Déterminant : Un nombre qui indique si une matrice est inversible et comment elle change les volumes.
+Valeurs Propres (Eigenvalues - $\lambda$) : Scalaires tels qu'il existe un vecteur non nul $v$ vérifiant $Av = \lambda v$.
+Vecteurs Propres (Eigenvectors - $v$) : Les vecteurs associés à ces valeurs propres.
+Polynôme Caractéristique : $P_A(\lambda) = \det(A - \lambda I)$. Les racines de ce polynôme sont les valeurs propres.
+Diagonalisation : Consiste à trouver une base de vecteurs propres pour rendre la matrice diagonale ($D = P^{-1}AP$).
+
+
+5. Espaces Euclidiens (Produit Scalaire)
+L'ajout d'une notion de "longueur" et "d'angle".
+
+Produit Scalaire ($\langle u, v \rangle$) : Permet de définir l'orthogonalité.
+Norme ($||u||$) : La "longueur" du vecteur, souvent $\sqrt{\langle u, u \rangle}$.
+Orthogonalité : Deux vecteurs sont orthogonaux si $\langle u, v \rangle = 0$.
+Procédé de Gram-Schmidt : Méthode pour transformer une base quelconque en une base orthonormée.
+
+
+
+Français,Português
+Valeur propre,Autovalor
+Vecteur propre,Autovetor
+Noyau,Núcleo
+Matrice décalée / échelonnée,Matriz escalonada
+Base orthonormée,Base ortonormal
+Système d'équations,Sistema de equações
+
+
+### 🚀 Aplicação Prática | Application Pratique
+
+**PT-BR:** Apliquei estes conceitos de lógica e conjuntos no desenvolvimento do projeto **[Nome do Projeto]**.
+**FR:** J'ai appliqué ces concepts de logique et d'ensembles dans le développement du projet **[Nom du Projet]**.
+
+🔗 [Ver projeto no GitHub](https://github.com/Naty-moniss/link-do-seu-repositorio)
