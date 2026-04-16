@@ -54,14 +54,17 @@ Orthogonalité : Deux vecteurs sont orthogonaux si $\langle u, v \rangle = 0$.
 Procédé de Gram-Schmidt : Méthode pour transformer une base quelconque en une base orthonormée.
 
 
+Vocabulaire Clé (Glossaire)
 
-Français,Português
-Valeur propre,Autovalor
-Vecteur propre,Autovetor
-Noyau,Núcleo
-Matrice décalée / échelonnée,Matriz escalonada
-Base orthonormée,Base ortonormal
-Système d'équations,Sistema de equações
+Français                Português
+
+Valeur propre           Autovalor
+Vecteur propre          Autovetor
+Noyau                    Núcleo
+Matrice décalée/
+échelonnée               Matriz escalonada
+Base orthonormée         Base ortonormal
+Système d'équations      Sistema de equações
 
 
 ### 🚀 Aplicação Prática | Application Pratique
