@@ -1,0 +1,64 @@
+Cours : Logique et raisonnement pour l’informatique – par l’Université de Londres, plateforme Coursera.
+
+## 📝 Résumés de Cours 1 
+
+### 1. Bases de la Logique
+La logique mathématique est l'étude du raisonnement qui utilise les propositions, les tables de
+vérité et les connecteurs logiques pour déterminer la validité des arguments et des énoncés. Ses 
+fondements reposent sur trois principes : l'identité (une proposition est elle-même), la 
+non-contradiction (une proposition n'est pas simultanément vraie et fausse) et le tiers exclu
+(une proposition est soit vraie, soit fausse).
+
+Fondements :
+
+Propositions : Énoncés déclaratifs qui ne peuvent être classés que comme vrais (V) ou faux (F).
+
+Valeurs logiques : La logique classique est bivalente, c'est-à-dire que chaque proposition admet 
+une et une seule valeur : Vrai ou Faux.
+
+Connecteurs logiques : Opérateurs qui relient des propositions simples pour former des composés,
+tels que :
+
+Négation (ou ~) : Inverse la valeur (non P).
+
+Conjonction (^) : Vrai seulement si les deux propositions sont vraies (P et Q).
+
+Disjonction (V) : Faux seulement si les deux propositions sont fausses (P ou Q).
+
+Conditionnel ( ) : Faux seulement si la première proposition est V et la seconde est F (Si P,
+alors Q).
+
+Biconditionnel ( ): Vrai si les deux sont égaux (P si et seulement si Q).
+
+
+Les lois de Morgan : Les règles logiques pour nier les propositions composées (« et » / « ou »). 
+La règle principale est la suivante : nier tout et changer le connecteur.
+
+Logique du premier ordre : système formel utilisé pour analyser la structure des énoncés, 
+étendant
+
+la logique propositionnelle par l’utilisation de variables, de prédicats et de quantificateurs 
+pour décrire les relations et les propriétés des objets d’un domaine. 
+
+Boolean Algebra: L'algèbre booléenne est une branche des mathématiques qui traite des variables 
+binaires, c'est-à-dire celles qui ne prennent que deux valeurs possibles, généralement notées 0 
+et 1 (ou vrai et faux). Elle se concentre sur les variables binaires et les opérations logiques 
+telles que ET, OU et NON.
+
+
+## Commentaires ##
+J'ai trouvé ce sujet moins difficile qu'il n'y paraissait au premier abord. J'ai eu un peu de mal 
+avec la terminologie au début, mais des exercices intensifs m'ont permis de la maîtriser
+rapidement.
+
+
+### 🚀 Aplicação Prática | Application Pratique
+
+**PT-BR:** Apliquei estes conceitos de lógica e conjuntos no desenvolvimento do projeto **Motor de recomendação baseado na similaridade cosinus**.
+**FR:** J'ai appliqué ces concepts de logique et d'ensembles dans le développement du projet **Moteur de recommandation basé sur la similarité cosinus**.
+
+🔗 [Ver projeto no GitHub](https://github.com/Naty-moniss/Motor-de-Recomenda-o-Baseado-em-Similaridade-de-Cosseno)
+
+
+
+
