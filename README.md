@@ -32,7 +32,7 @@ entièrement couverts par le programme universitaire, servant ainsi de base tech
 | :--- | :--- | :---: |
 | **Matemática Discreta** | Lógica, Conjuntos e Grafos. | 📖 |
 | **Álgebra Linear** | Matrizes, Vetores e Espaços Vetoriais. | 📖 |
-| **Cálculo** | Limites, Derivadas e Integrais. | 🔒 |
+| **Cálculo** | Limites, Derivadas e Integrais. | 📖 |
 | **Probabilidade** | Estatística e análise de dados. | 🔒 |
 
 ---
