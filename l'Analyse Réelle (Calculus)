@@ -1,0 +1,72 @@
+Cours: Tout le contenu que j'ai utilisé pour étudier et créer ce résumé provient du cours « Introduction au calcul avancé » proposé par
+l'Université de Sydney via la plateforme Coursera.
+
+
+1. Les Nombres Réels ($\mathbb{R}$)
+
+L'analyse réelle repose sur les propriétés de l'ensemble $\mathbb{R}$.
+
+L'Axiome de la Borne Supérieure : Tout ensemble non vide et majoré de $\mathbb{R}$ admet une borne supérieure (sup).
+
+La propriété archimédienne : Pour tout $x \in \mathbb{R}$, il existe un entier $n \in \mathbb{N}$ tel que $n > x$.
+
+Valeur absolue : $|x|$, utilisée pour définir la distance entre deux points $d(x, y) = |x - y|$.
+
+
+
+2. Suites Numériques (Sequences)
+Une suite $(u_n)$ est une fonction de $\mathbb{N}$ vers $\mathbb{R}$.
+
+Convergence : Une suite $(u_n)$ converge vers $L$ si :
+
+$$\forall \epsilon > 0, \exists N \in \mathbb{N} \text{ tel que } n \geq N \implies |u_n - L| < \epsilon$$
+
+Théorème de Bolzano-Weierstrass : De toute suite bornée, on peut extraire une sous-suite convergente
+
+Suites de Cauchy : Une suite est convergente dans $\mathbb{R}$ si et seulement si elle est de
+Cauchy (les termes se rapprochent indéfiniment les uns des autres).
+
+
+
+3. Limites et Continuité
+L'étude des fonctions $f: I \to \mathbb{R}$.
+
+Limite en un point : $\lim_{x \to a} f(x) = L$.
+Continuité : $f$ est continue en $a$ si $\lim_{x \to a} f(x) = f(a)$.
+Théorème des Valeurs Intermédiaires (TVI) : Si $f$ est continue sur $[a, b]$, elle prend toutes les valeurs entre $f(a)$ et $f(b)$.
+
+
+
+4. Dérivabilité (Differentiation)
+La dérivée mesure le taux de variation local d'une fonction.
+
+Définition : $f'(a) = \lim_{h \to 0} \frac{f(a+h) - f(a)}{h}$.
+
+Théorème de Rolle : Si $f$ est continue sur $[a, b]$, dérivable sur $]a, b[$, et $f(a) = f(b)$,
+alors il existe $c \in ]a, b[$ tel que $f'(c) = 0$.
+
+Théorème des Accroissements Finis (TAF) :
+
+$$\exists c \in ]a, b[ \text{ tel que } f(b) - f(a) = f'(c)(b - a)$$
+
+
+
+5. Intégration (Intégrale de Riemann)
+L'accumulation et l'aire sous la courbe.
+
+Sommes de Riemann : On découpe l'intervalle $[a, b]$ en petits segments pour approximer l'aire.
+
+Théorème Fondamental de l'Analyse : Si $f$ est continue sur $[a, b]$, alors la fonction
+$F(x) = \int_a^x f(t) dt$ est une primitive de $f$ (c'est-à-dire $F'(x) = f(x)$).
+
+
+Vocabulaire Clé (Français - Portugais)
+
+Français               Português
+Borne supérieure        Supremo
+Suite                    Sequência 
+Sous-suite              Subsequência
+Dérivable                 Diferenciável / Derivável
+Voisinage                 Vizinhança
+Ouvert / Fermé            Aberto / Fechado
+Borné                       Limitado
