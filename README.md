@@ -20,7 +20,7 @@ entièrement couverts par le programme universitaire, servant ainsi de base tech
 
 ### 🎯 Objetivos | Objectifs
 
-- [ ] **Base Teórica / Base Théorique:** Consolidar fundamentos de Álgebra, Cálculo e Lógica.
+- [x] **Base Teórica / Base Théorique:** Consolidar fundamentos de Álgebra, Cálculo e Lógica.
 - [ ] **Aplicação / Application:** Conectar conceitos matemáticos com Análise e Desenvolvimento de Sistemas.
 - [ ] **Preparação / Préparation:** Nivelamento para admissão em universidades francesas (L2/L3).
 
