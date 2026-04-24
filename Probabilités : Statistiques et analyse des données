@@ -1,0 +1,106 @@
+Cours: Pour étudier ce sujet, j'ai suivi le cours : « Probabilités et statistiques pour l'apprentissage automatique et la science des données » 
+de DeepLearning.AI, disponible sur la plateforme Coursera.
+
+
+
+📊 Résumé de Probabilités pour l'Analyse de Données
+
+La probabilité est le fondement de la statistique inférentielle. Elle nous permet de quantifier l'incertitude et de prendre des décisions
+basées sur des échantillons de données.
+
+1. Les Concepts Fondamentaux
+Expérience Aléatoire : Un processus dont le résultat est incertain (ex: lancer un dé).
+Espace Échantillonnal ($\Omega$) : L'ensemble de tous les résultats possibles.
+Événement ($A$) : Un sous-ensemble de l'espace échantillonnal.
+Probabilité $P(A)$ : Une valeur comprise entre 0 (impossible) et 1 (certain).
+
+
+2. Probabilité Conditionnelle et Théorème de Bayes
+C'est la base du "Machine Learning" bayésien. Elle répond à la question : Quelle est la probabilité que $A$ se produise,
+sachant que $B$ est déjà arrivé 
+
+?$$P(A|B) = \frac{P(B|A) \cdot P(A)}{P(B)}$$
+
+
+
+3. Variables Aléatoires et Distributions
+En analyse de données, on transforme les événements en nombres via des variables aléatoires.
+
+Variables Discrètes : Valeurs comptables (ex: nombre de clics).
+* Distribution de Bernoulli / Binomiale : Succès ou échec.
+* Distribution de Poisson : Nombre d'événements dans un intervalle de temps.
+
+Variables Continues : Mesures (ex: taille, prix, temps).
+ * Distribution Normale (Gaussienne) : La plus importante. La plupart des données naturelles 
+suivent cette courbe en cloche.
+
+
+4. Indicateurs Statistique Clés
+Pour résumer une distribution, on utilise :
+Espérance ($E[X]$) : La valeur moyenne théorique.
+Variance ($\sigma^2$) : La mesure de la dispersion des données autour de la moyenne.
+Écart-type ($\sigma$) : La racine carrée de la variance, exprimée dans la même unité que les données.
+
+
+
+5. La Loi des Grands Nombres et le Théorème Central Limite (TCL)
+Ce sont les piliers de l'analyse de données :
+
+* Loi des Grands Nombres : Plus la taille de l'échantillon augmente, plus la moyenne observée se
+rapproche de l'espérance réelle.
+
+* TCL : Peu importe la distribution d'origine, la somme (ou la moyenne) d'un grand nombre de variables aléatoires
+indépendantes tend vers une distribution normale. C'est ce qui permet de créer des intervalles de confiance.
+
+
+💡 Pourquoi est-ce important pour un analyste ?
+En tant qu'analyste, vous utiliserez ces concepts pour :
+
+A/B Testing : Déterminer si un changement sur un site est statistiquement significatif.
+
+Prédiction : Estimer la probabilité qu'un client quitte un service (Churn).
+
+Nettoyage de données : Identifier les valeurs aberrantes (outliers) qui s'écartent trop de la distribution attendue.
+
+
+
+1. Probabilité et Algèbre Linéaire : L'espace des données
+L'algèbre linéaire fournit la structure pour manipuler les probabilités à grande échelle.
+
+* Vecteurs de Probabilité : Dans les modèles de classification, la sortie est souvent un vecteur où chaque élément représente la probabilité
+d'appartenir à une classe. La somme des éléments de ce vecteur doit être égale à 1.
+
+* Matrices de Covariance : Pour comprendre comment plusieurs variables (comme le prix et la taille d'un logement) évoluent ensemble, on utilise des 
+matrices. La diagonale représente la variance de chaque variable, et les autres éléments montrent leur corrélation.
+
+* Chaînes de Markov : On utilise des matrices de transition pour calculer la probabilité de passer d'un état à un autre
+(très utilisé en analyse prédictive).
+
+
+2. Probabilité et Analyse Réelle : La rigueur mathématique
+L'analyse réelle est ce qui permet de définir la probabilité de manière formelle, au-delà du simple comptage.
+
+- Théorie de la Mesure : En analyse réelle, vous étudiez comment mesurer des ensembles. Une probabilité est, mathématiquement, 
+une "mesure" dont le total est égal à 1.
+
+- Convergence : L'analyse réelle permet de prouver la Loi des Grands Nombres. Elle définit rigoureusement ce que signifie le fait qu'une 
+suite de variables aléatoires "tend vers" une valeur ou une distribution.
+
+- Continuité et Bornes : Pour savoir si un algorithme va stabiliser ses prédictions, on utilise les concepts 
+de limites et de compacité issus de l'analyse.
+
+
+3. Probabilité et Calcul (Différentiel et Intégral) : Le moteur de calcul
+Le calcul est l'outil pratique pour manipuler les fonctions de probabilité.
+
+* Intégrales et Densité : Pour une variable continue, la probabilité n'est pas un point, mais une aire sous une courbe.
+On utilise le calcul intégral pour trouver la probabilité entre deux valeurs :
+
+$$P(a \leq X \leq b) = \int_{a}^{b} f(x) dx$$
+
+Optimisation (Dérivées) : En analyse de données, on cherche souvent à maximiser la "vraisemblance" 
+(Maximum Likelihood Estimation). On utilise des dérivées pour trouver les paramètres (moyenne, écart-type) qui correspondent
+le mieux aux données observées.
+
+Séries et Espérance : Pour les variables discrètes infinies, on utilise les séries (calcul) 
+pour calculer l'espérance ou la variance.
